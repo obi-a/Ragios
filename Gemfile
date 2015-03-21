@@ -4,7 +4,7 @@ gem "pony"
 gem "twitter"
 gem "rufus-scheduler", '~> 3.0.7', :require => "rufus/scheduler"
 gem "daemons"
-gem "i18n"
+gem "i18n", '~> 0.6'
 gem "gmail"
 gem "rake"
 gem "aws-ses"
@@ -20,6 +20,8 @@ gem "thor"
 gem "ragios-client", '~> 0.0.7'
 gem "eventmachine", '~> 1.0.4'
 gem "contracts"
+gem "activesupport", '~> 4.0'
+
 
 gem "rspec"
 gem "rack-test"
